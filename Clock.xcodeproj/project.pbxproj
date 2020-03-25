@@ -14,6 +14,7 @@
 		09515372216FC8FC00477428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09515370216FC8FC00477428 /* LaunchScreen.storyboard */; };
 		0951537D216FC8FD00477428 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0951537C216FC8FD00477428 /* ClockTests.swift */; };
 		09515388216FC8FD00477428 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09515387216FC8FD00477428 /* ClockUITests.swift */; };
+		09515396216FCD3900477428 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09515395216FCD3900477428 /* Clock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		09515383216FC8FD00477428 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09515387216FC8FD00477428 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
 		09515389216FC8FD00477428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09515395216FCD3900477428 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		09515366216FC8FB00477428 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				09515395216FCD3900477428 /* Clock.swift */,
 				09515367216FC8FB00477428 /* AppDelegate.swift */,
 				09515369216FC8FB00477428 /* ViewController.swift */,
 				0951536B216FC8FB00477428 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09515396216FCD3900477428 /* Clock.swift in Sources */,
 				0951536A216FC8FB00477428 /* ViewController.swift in Sources */,
 				09515368216FC8FB00477428 /* AppDelegate.swift in Sources */,
 			);
